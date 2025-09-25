@@ -1,0 +1,119 @@
+/* reset styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+::selection {
+    background-color: #dbc8b0;
+}
+
+/* Colors */
+.color-b88e2f {
+    color: #B88E2F;
+}
+
+.color-fff3e3 {
+    color: #FFF3E3;
+}
+
+/* Display flex */
+.display-flex {
+    display: flex;
+}
+
+.justify-content-between {
+    justify-content: space-between;
+}
+
+.justify-content-around {
+    justify-content: space-around;
+}
+
+.align-items-center {
+    align-items: center;
+}
+
+.flex-direction-column {
+    flex-direction: flex-column;
+}
+
+.flex-wrap-wrap {
+    flex-wrap: wrap;
+}
+
+/* gap */
+.gap-1 {
+    gap: 1rem;
+}
+
+.gap-2 {
+    gap: 2rem;
+}
+
+.gap-3 {
+    gap: 3rem;
+}
+
+.gap-4 {
+    gap: 4rem;
+}
+
+.gap-5 {
+    gap: 5rem;
+}
+
+.gap-6 {
+    gap: 6rem;
+}
+
+/* font size */
+.font-size-05 {
+    font-size: .5rem;
+}
+
+.font-size-1 {
+    font-size: 1rem;
+}
+
+.font-size-15 {
+    font-size: 1.5rem;
+}
+
+.font-size-2 {
+    font-size: 2rem;
+}
+
+.font-size-25 {
+    font-size: 2.5rem;
+}
+
+.font-size-3 {
+    font-size: 3rem;
+}
+
+.font-size-35 {
+    font-size: 3.5rem;
+}
+
+/* width */
+.width
+
+/* list style */
+.list-style-none {
+    list-style: none;
+}
+
+/* text decoration */
+.text-decoration-none {
+    text-decoration: none;
+}
+
+.text-decoration-underline {
+    text-decoration: underline;
+}
+
+body {
+    font-family: 'Montserrat', sans-serif;
+}
