@@ -21,6 +21,7 @@
 /* Display flex */
 .display-flex {
     display: flex;
+    
 }
 
 .justify-content-between {
