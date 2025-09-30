@@ -29,10 +29,18 @@ body {
     padding: 1rem 0;
 }
 
+.logo h1 {
+    margin: 0;
+}
+
 .menu ul a {
     color: black;
     font-weight: 600;
     transition: all ease .2s;
+}
+
+.icons {
+    width: 200px;
 }
 
 .menu ul a:hover {
@@ -40,8 +48,8 @@ body {
     font-size: 1.1rem;
 }
 
-.icons ul li{
-  transition: all ease .3s;
+.icons ul li {
+    transition: all ease .3s;
 }
 
 .icons ul li:hover {
@@ -78,4 +86,31 @@ body {
 
 .banner-text button a {
     color: #fff;
+}
+
+/* Products section */
+.Products-container {
+    width: 80%;
+}
+
+.offer {
+    background-color: #E97171;
+    color: #fff;
+    padding: 1rem;
+    border-radius: 50%;
+    top: 1rem;
+    right: 1rem;
+}
+
+.new-product {
+    background-color: #2EC1AC;
+    color: #fff;
+    padding: 1rem;
+    border-radius: 50%;
+    top: 1rem;
+    right: 1rem;
+}
+
+.delete-price {
+    font-size: .8rem;
 }
