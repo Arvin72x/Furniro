@@ -4,8 +4,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="./output.css" rel="stylesheet">
-    <title>Furniro</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
     <link rel="stylesheet" href="assets/css/styles.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -13,19 +13,20 @@
         href="https://fonts.googleapis.com/css2?family=Lexend:wght@100..900&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
         rel="stylesheet">
     <link rel="shortcut icon" href="assets/image/Logos.svg" type="image/x-icon">
+    <title>Furniro</title>
 </head>
 
 <body>
     <!-- header seaction -->
-    <header class="header display-flex justify-content-around align-items-center">
+    <header class="header d-flex justify-content-around align-items-center">
 
-        <div class="logo display-flex align-items-center gap-1">
+        <div class="logo d-flex align-items-center gap-3">
             <img src="/assets/image/Logos.svg" alt="Logo">
             <h1>Furniro</h1>
         </div>
 
         <div class="menu">
-            <ul class="display-flex justify-content-between align-items-center list-style-none gap-2">
+            <ul class="d-flex justify-content-between align-items-center list-unstyled gap-5">
                 <li><a class="text-decoration-none" href="#">Home</a></li>
                 <li><a class="text-decoration-none" href="#">Shop</a></li>
                 <li><a class="text-decoration-none" href="#">About</a></li>
@@ -33,9 +34,9 @@
             </ul>
         </div>
 
-        <div class="icons display-flex align-items-center gap-2">
+        <div class="icons d-flex align-items-center gap-3">
 
-            <ul class="display-flex justify-content-between align-items-center list-style-none gap-2">
+            <ul class="d-flex justify-content-between align-items-center list-unstyled gap-2">
                 <li><a class="text-decoration-none" href="#"><img src="/assets/image/mdi_account-alert-outline.svg"
                             alt=""></a></li>
                 <li><a class="text-decoration-none" href="#"><img src="/assets/image/akar-icons_search.svg" alt=""></a>
@@ -51,9 +52,9 @@
     <main class="main">
         <!--banner seaction-->
         <section class="banner position-relative">
-            <img class="width-100" src="/assets/image/scandinavian-interior-mockup-wall-decal-background 1.jpg" alt="">
+            <img class="w-100" src="/assets/image/scandinavian-interior-mockup-wall-decal-background 1.jpg" alt="">
 
-            <div class="banner-text display-flex flex-direction-column gap-1 position-absolute">
+            <div class="banner-text d-flex flex-column gap-2 position-absolute">
                 <label for="">New Arrival</label>
                 <h2>Discover Our <br> New Collection</h2>
                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus, luctus nec ullamcorper
@@ -64,6 +65,48 @@
             </div>
 
 
+        </section>
+        <!--Browse seaction-->
+        <section class="Browse-section d-flex justify-content-center align-content-center mt-lg-4">
+
+            <div class="Browse-box w-80 display-flex flex-direction-column gap-3">
+                <!-- Browse-head -->
+                <div class="Browse-head text-center mb-lg-4">
+                    <h3>Browse The Range</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                </div>
+                <!-- Browse-card-box -->
+                <div class="Browse-card-box d-flex justify-content-between align-content-center gap-5">
+
+                    <div class="Browse-card d-flex flex-column align-items-center gap-4">
+                        <a href="">
+                            <img src="/assets/image/image 106.png" alt="">
+                        </a>
+                        <a class="text-decoration-none text-dark" href="">
+                            <b class="text-center">Dining</b>
+                        </a>
+                    </div>
+
+                    <div class="Browse-card d-flex flex-column align-items-center gap-4">
+                        <a href="">
+                            <img src="/assets/image/image 101.png" alt="">
+                        </a>
+                        <a class="text-decoration-none text-dark" href="">
+                            <b class="text-center">Living</b>
+                        </a>
+                    </div>
+
+                    <div class="Browse-card d-flex flex-column align-items-center gap-4">
+                        <a href="">
+                            <img src="/assets/image/image 100.png" alt="">
+                        </a>
+                        <a class="text-decoration-none text-dark" href="">
+                            <b class="text-center">Bedroom</b>
+                        </a>
+                    </div>
+
+                </div>
+            </div>
         </section>
 
     </main>
